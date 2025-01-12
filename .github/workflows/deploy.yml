@@ -1,4 +1,5 @@
 name: Deploy
+
 on:
   workflow_dispatch:
   push:
@@ -7,11 +8,17 @@ on:
 
 jobs:
   deploy:
+    name: Dispatch Deploy Event
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
-      - name: Dispatch to workflows
+      - name: Trigger Repository Dispatch Event
         run: |
-          curl -H "Accept: application/vnd.github.everest-preview+json" \
-          -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
-          --request POST \
-          --data '{ "event_type": "deploy" }' https://api.github.com/repos/viseshrp/todayilearned/dispatches
+          echo "Triggering repository dispatch event for 'deploy'..."
+          curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/viseshrp/todayilearned/dispatches \
+            -d '{"event_type":"deploy","client_payload":{"unit":false,"integration":true}}'
