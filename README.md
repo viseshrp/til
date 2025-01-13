@@ -3,7 +3,7 @@
 
 ---
 
-3 TILs so far:
+4 TILs so far:
 
 ## django
 
@@ -13,3 +13,7 @@
 
 - [Ignore all `.DS_Store` files](/git/ignore-all-ds-store-files.md)
 - [Update all submodules to latest commit on origin](/git/update-all-submodules-to-latest-commit-on-origin.md)
+
+## javascript
+
+- [Update all submodules to latest commit on origin](/javascript/structuredclone.md)
