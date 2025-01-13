@@ -1,8 +1,7 @@
 # structuredClone
- The object spread syntax `...` makes a shallow clone of an object,
- but a shallow clone is only useful for cloning primitive values in the object.
+ The object spread syntax `...` makes a shallow clone of an object, but a shallow clone is only useful for cloning primitive values in the object.
  If you have values like arrays or objects, they aren’t cloned, but the reference to the original object is cloned.
- In late 2021, when Deno, Node.js and Firefox released support for structuredClone, followed in 2022 by the other browsers.
+ In late 2021, Deno, Node.js and Firefox released support for structuredClone, followed in 2022 by the other browsers.
 The structuredClone algorithm is a deep clone algorithm, like Python’s `copy.deepcopy()`.
 
 ```js
