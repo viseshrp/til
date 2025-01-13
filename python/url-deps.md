@@ -1,7 +1,8 @@
 # Defining setup.py dependencies using a URL
 
 Any branch on GitHub can be installed by pip by finding the URL to the zip export of that branch.
-`https://github.com/simonw/beanbag-docutils/archive/refs/heads/bytes-in-url.zip`
+
+`https://github.com/<owner>/<repository>/archive/refs/heads/<branch>.zip`
 
 The solution is to use packagename @ URL, like this:
 
