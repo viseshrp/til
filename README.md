@@ -3,7 +3,7 @@
 
 ---
 
-5 TILs so far:
+7 TILs so far:
 
 ## django
 
@@ -20,4 +20,6 @@
 
 ## python
 
+- [Efficiently copying a file](/python/copy-files.md)
 - [Use setup.py to install platform-specific dependencies](/python/platform-deps.md)
+- [Defining setup.py dependencies using a URL](/python/url-deps.md)
