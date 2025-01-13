@@ -16,4 +16,4 @@
 
 ## javascript
 
-- [Update all submodules to latest commit on origin](/javascript/structuredclone.md)
+- [structuredClone](/javascript/structuredclone.md)
