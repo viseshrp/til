@@ -3,7 +3,7 @@
 
 ---
 
-4 TILs so far:
+5 TILs so far:
 
 ## django
 
@@ -17,3 +17,7 @@
 ## javascript
 
 - [structuredClone](/javascript/structuredclone.md)
+
+## python
+
+- [Use setup.py to install platform-specific dependencies](/python/platform-deps.md)
