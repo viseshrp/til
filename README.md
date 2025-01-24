@@ -3,7 +3,7 @@
 
 ---
 
-8 TILs so far:
+9 TILs so far:
 
 ## django
 
@@ -21,6 +21,7 @@
 ## python
 
 - [Efficiently copying a file](/python/copy-files.md)
+- [Extract files from a docker container without running it](/python/docker-extract-without-running.md)
 - [Use setup.py to install platform-specific dependencies](/python/platform-deps.md)
 - [Defining setup.py dependencies using a URL](/python/url-deps.md)
 - [Verify and lazy load imports of a python package](/python/verify-lazy-load-imports.md)
