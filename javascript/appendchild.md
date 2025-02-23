@@ -1,6 +1,4 @@
 # appendChild
-appendChild
-
 Move an element from its current position to the new position.
 Also can be used across different containers.
 
