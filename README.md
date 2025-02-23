@@ -3,7 +3,7 @@
 
 ---
 
-9 TILs so far:
+10 TILs so far:
 
 ## django
 
@@ -16,6 +16,7 @@
 
 ## javascript
 
+- [appendChild](/javascript/appendchild.md)
 - [structuredClone](/javascript/structuredclone.md)
 
 ## python
